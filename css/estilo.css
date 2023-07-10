@@ -1,0 +1,133 @@
+li{
+    /* background-color: ; */
+    margin: 10px;
+    display: inline-block;
+    /* padding: 10px; */
+    width: 150px;
+    height: 20px;
+}
+
+.logo{
+    border-radius: 10px;
+}
+
+li a{
+    transition: all 0.5s;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ametteCover{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fotos-index{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+
+.fotos-index:hover{
+    transform: scale(1.05);
+}
+
+.fotos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 1.5rem;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px 0px 50px;
+    gap: 30px;
+}
+
+.contenedor img {
+    width: 600px;
+    border-radius: 25px;
+}
+
+.contenedor p {
+    font-size: 1.4rem;
+    width: 50vw;
+}
+
+.logo{
+    height: 60px;
+    margin-right: 100px;
+}
+
+h1{
+    padding: 50px;
+    text-align: center;
+}
+
+.fotos-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto-seccion{
+    width: 30vw;
+}
+
+
+.bodycontacto{
+    text-align: center;
+}
+
+.servicios3{
+    text-align: center;
+}
+
+.divservicios{
+    text-align: center;
+}
+
+.h1rosa{
+    color: #00F997;
+}
