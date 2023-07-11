@@ -131,3 +131,11 @@ h1{
 .h1rosa{
     color: #00F997;
 }
+
+.contenedorImagenes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    gap: 30px;
+}
